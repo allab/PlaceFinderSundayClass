@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5D01FB6E1E74547D002A06B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB6D1E74547D002A06B1 /* AppDelegate.swift */; };
-		5D01FB701E74547D002A06B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB6F1E74547D002A06B1 /* ViewController.swift */; };
 		5D01FB731E74547D002A06B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D01FB711E74547D002A06B1 /* Main.storyboard */; };
 		5D01FB751E74547D002A06B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D01FB741E74547D002A06B1 /* Assets.xcassets */; };
 		5D01FB781E74547D002A06B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D01FB761E74547D002A06B1 /* LaunchScreen.storyboard */; };
+		5D01FB861E747F47002A06B1 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB851E747F47002A06B1 /* ConfigurationViewController.swift */; };
+		5D01FB881E758903002A06B1 /* YelpAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB871E758903002A06B1 /* YelpAPIController.swift */; };
+		5D01FB8A1E7598C5002A06B1 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB891E7598C5002A06B1 /* ResultsTableViewController.swift */; };
+		5D01FB8C1E75C35B002A06B1 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB8B1E75C35B002A06B1 /* Business.swift */; };
+		5D01FB8E1E75C45E002A06B1 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01FB8D1E75C45E002A06B1 /* BusinessTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D01FB6A1E74547D002A06B1 /* PlaceFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D01FB6D1E74547D002A06B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D01FB6F1E74547D002A06B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D01FB721E74547D002A06B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D01FB741E74547D002A06B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D01FB771E74547D002A06B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D01FB791E74547D002A06B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D01FB831E747CF3002A06B1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		5D01FB841E747CF3002A06B1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5D01FB851E747F47002A06B1 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		5D01FB871E758903002A06B1 /* YelpAPIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAPIController.swift; sourceTree = "<group>"; };
+		5D01FB891E7598C5002A06B1 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		5D01FB8B1E75C35B002A06B1 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		5D01FB8D1E75C45E002A06B1 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,15 @@
 			isa = PBXGroup;
 			children = (
 				5D01FB6D1E74547D002A06B1 /* AppDelegate.swift */,
-				5D01FB6F1E74547D002A06B1 /* ViewController.swift */,
 				5D01FB711E74547D002A06B1 /* Main.storyboard */,
 				5D01FB741E74547D002A06B1 /* Assets.xcassets */,
 				5D01FB761E74547D002A06B1 /* LaunchScreen.storyboard */,
 				5D01FB791E74547D002A06B1 /* Info.plist */,
+				5D01FB851E747F47002A06B1 /* ConfigurationViewController.swift */,
+				5D01FB871E758903002A06B1 /* YelpAPIController.swift */,
+				5D01FB891E7598C5002A06B1 /* ResultsTableViewController.swift */,
+				5D01FB8B1E75C35B002A06B1 /* Business.swift */,
+				5D01FB8D1E75C45E002A06B1 /* BusinessTableViewCell.swift */,
 			);
 			path = PlaceFinder;
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D01FB701E74547D002A06B1 /* ViewController.swift in Sources */,
+				5D01FB8A1E7598C5002A06B1 /* ResultsTableViewController.swift in Sources */,
+				5D01FB881E758903002A06B1 /* YelpAPIController.swift in Sources */,
 				5D01FB6E1E74547D002A06B1 /* AppDelegate.swift in Sources */,
+				5D01FB8C1E75C35B002A06B1 /* Business.swift in Sources */,
+				5D01FB861E747F47002A06B1 /* ConfigurationViewController.swift in Sources */,
+				5D01FB8E1E75C45E002A06B1 /* BusinessTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +167,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5D01FB721E74547D002A06B1 /* Base */,
+				5D01FB831E747CF3002A06B1 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,6 +176,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5D01FB771E74547D002A06B1 /* Base */,
+				5D01FB841E747CF3002A06B1 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -217,6 +238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

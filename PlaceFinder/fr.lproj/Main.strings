@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "What would you like to do"; ObjectID = "DCo-7N-JCC"; */
+"DCo-7N-JCC.text" = "What would you like to do";
+
+/* Class = "UIButton"; accessibilityHint = "Double tap to see results"; ObjectID = "pXL-bW-zxa"; */
+"pXL-bW-zxa.accessibilityHint" = "Double tap to see results";
+
+/* Class = "UIButton"; normalTitle = "Show me places"; ObjectID = "pXL-bW-zxa"; */
+"pXL-bW-zxa.normalTitle" = "Show me places";
+
+/* Class = "UITextField"; accessibilityHint = "Start typing a new activity"; ObjectID = "rGV-5Q-CvJ"; */
+"rGV-5Q-CvJ.accessibilityHint" = "Start typing a new activity";
+
+/* Class = "UITextField"; accessibilityLabel = "Input feild"; ObjectID = "rGV-5Q-CvJ"; */
+"rGV-5Q-CvJ.accessibilityLabel" = "Input feild";
+
+/* Class = "UILabel"; text = "Romance"; ObjectID = "uwh-Mh-kZX"; */
+"uwh-Mh-kZX.text" = "Romance";
+
+/* Class = "UILabel"; text = "Going Out"; ObjectID = "zkV-Ea-zVB"; */
+"zkV-Ea-zVB.text" = "Going Out";
